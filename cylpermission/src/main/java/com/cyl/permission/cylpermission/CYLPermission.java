@@ -141,8 +141,6 @@ public class CYLPermission
                 denied.add(perm);
         }
 
-        // iterate through all receivers
-
         // 把允許的傳入 onPermissionsGranted
         if (!granted.isEmpty())
             if (context instanceof PermissionCallback)
